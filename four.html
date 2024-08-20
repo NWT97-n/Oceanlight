@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="four.css">
+        <title>Oceanlight OJT Group</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <form class="registration-form" id="registration-form" action="https://script.google.com/macros/s/AKfycbzbJxlGINBFYQYk7YrUfvZp7VQspk57VVYSEzI5_A6pMp-IgldDFbf4Y000Os60X7qX/exec" method="post">
+            <div class="top-group">
+                <h2>New Donation Form</h2>
+                <h4>For new donate process</h4>
+                
+            </div>
+            <div class="mid-group">
+                <div class="midone">
+                    <label for="name">Donate To</label>
+                    <input type="text" id="name" name="name" placeholder="Ex. Mg Mg"required>
+    
+                    <label for="date">Blood Donate Date</label>
+                    <input type="date" id="date" name="date" required>
+    
+                    <label for="requestname">Requested By (Name)</label>
+                    <input type="text" id="requestname" name="requestname" placeholder="Ex. Mg Mg" required>
+
+                    <label for="requestcdc">Requested By (CDC)</label>
+                    <input type="text" id="requestcdc" name="requestcdc" placeholder="Ex.1234567" required>
+
+                    <label for="remark">Remark</label>
+                    <input type="text" id="remark" name="remark" placeholder="remark"required>
+    
+                </div>
+            </div>
+            <div class="button-row">
+                <button type="button" id="back-button">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div id="result">
+            <div class="icon"><i class='bx bxs-message-square-check'></i></div>
+            <h3>Success</h3>
+            <h6>Thank you for your submission!</h6>
+            <h6>You are a hero!</h6>
+        </div>
+        <script src="four.js"></script>
+    </body>
+</html>

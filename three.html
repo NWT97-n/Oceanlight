@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="three.css">
+        <title>Oceanlight OJT Group</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <form class="registration-form" id="registration-form" action="https://script.google.com/macros/s/AKfycbwf-2UA-Tei-2E0ahp-9ZUuaDDxnwywXWsfVkvmdTlTc2-X6prQAP_bmhaWtRL_BElfuQ/exec" method="post">
+            <div class="top-group">
+                <h2>Update Arrival or Departure Form</h2>
+                <h4>For update</h4>
+                
+            </div>
+            <div class="mid-group">
+                <div class="midone">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Ex. Mg Mg"required>
+    
+                    <label for="cdc">CDC</label>
+                    <input type="text" id="cdc" name="cdc" placeholder="Ex. 123456"required>
+    
+                    <label for="arrivaldeparture">Arrival or Departure</label>
+                    <select id="arrivaldeparture" name="arrivaldeparture" required>
+                        <option value="Arrival">Arrival</option>
+                        <option value="Departure">Departure</option>
+                    </select>
+
+                    <label for="done">Arrival or Departure Date</label>
+                    <input type="date" id="done" name="done" required>
+    
+                </div>
+            </div>
+            <div class="button-row">
+                <button type="button" id="back-button">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div id="result">
+            <div class="icon"><i class='bx bxs-message-square-check'></i></div>
+            <h3>Success</h3>
+            <h6>Thank you for your submission!</h6>
+            <h6>You are a hero!</h6>
+        </div>
+        <script src="three.js"></script>
+    </body>
+</html>
